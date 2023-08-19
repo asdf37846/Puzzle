@@ -15,9 +15,8 @@ class PUZZLE_API UPuzzlePlatformGameInstance : public UGameInstance
 	GENERATED_BODY()
 
 public:
-
 	UFUNCTION(Exec)
-		void Host();
+		void Join();
 
 	UFUNCTION(Exec)
 		void Join(const FString& Address);
