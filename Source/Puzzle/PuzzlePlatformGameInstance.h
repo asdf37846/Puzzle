@@ -16,7 +16,7 @@ class PUZZLE_API UPuzzlePlatformGameInstance : public UGameInstance
 
 public:
 	UFUNCTION(Exec)
-		void Join();
+		void Host();
 
 	UFUNCTION(Exec)
 		void Join(const FString& Address);
